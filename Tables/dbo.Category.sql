@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Category]
+(
+[ID] [int] NOT NULL IDENTITY(1, 1),
+[Name] [varchar] (100) COLLATE Latin1_General_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Category] ADD CONSTRAINT [PK__Category__3214EC2749D2A539] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
+GO
